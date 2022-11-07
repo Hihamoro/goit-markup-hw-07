@@ -160,7 +160,7 @@ p {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
-  transition: color 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .head-contacts__item:hover, .head-contacts__item:focus {
   color: var(--accent-color);
@@ -168,7 +168,7 @@ p {
 .head-contacts__icon {
   margin-right: 10px;
   fill: var(--title-text-color);
-  transition: fill 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .head-contacts__item:hover .head-contacts__icon, .head-contacts__item:focus .head-contacts__icon {
   fill: var(--accent-color);
@@ -253,7 +253,7 @@ p {
 .specialization__list {
   display: flex;
 }
-.specialization__list__text {
+.specialization__text {
   position: absolute;
   display: flex;
   bottom: 0px;
@@ -269,12 +269,12 @@ p {
   color: var(--button-color);
   background: rgba(47, 48, 58, 0.8);
 }
-.specialization__list__item {
+.specialization__item {
   flex-basis: calc((100% - 60px) / 3);
   margin-right: 30px;
   position: relative;
 }
-.specialization__list__item:last-child {
+.specialization__item:last-child {
   margin-right: 0;
 }
 
@@ -352,7 +352,7 @@ p {
 .clients__list {
   display: flex;
 }
-.clients__list__link {
+.clients__link {
   display: flex;
   height: 92px;
   flex-basis: calc((100% - 150px) / 6);
@@ -363,18 +363,18 @@ p {
   border-radius: 4px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.clients__list__link:last-child {
+.clients__link:last-child {
   margin-right: 0;
 }
-.clients__list__link:hover, .clients__list__link:focus {
+.clients__link:hover, .clients__link:focus {
   cursor: pointer;
   border: 1px solid var(--accent-color);
 }
-.clients__list__icon {
+.clients__icon {
   fill: var(--icon-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.clients__link:hover .clients__list__icon, .clients__link:focus .clients__list__icon {
+.clients__link:hover .clients__icon, .clients__link:focus .clients__icon {
   fill: var(--accent-color);
 }
 
@@ -434,13 +434,13 @@ p {
   margin-right: 0;
 }
 .projects__item:nth-child(7n) {
-  margin-right: 0;
+  margin-bottom: 0;
 }
 .projects__item:nth-child(8n) {
-  margin-right: 0;
+  margin-bottom: 0;
 }
 .projects__item:nth-child(9n) {
-  margin-right: 0;
+  margin-bottom: 0;
 }
 .projects__item:hover, .projects__item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);

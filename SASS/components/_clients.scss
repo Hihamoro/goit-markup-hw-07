@@ -1,5 +1,6 @@
-.clients__list {
-    display: flex;
+
+.clients {
+    &__list {display: flex;}
 
     &__link {
         display: flex;
